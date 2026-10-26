@@ -1,50 +1,36 @@
 ---
-title: 项目展示
+title: 项目
 layout: doc
 ---
 
-# 项目展示
+# 项目
 
-以下是我的一些个人项目和作品集。
+只列出 [yhl-tech](https://github.com/yhl-tech) 名下的公开仓库。下面这些仓库都没有公开的演示地址，所以这里不放「在线访问」链接。
 
-## 个人博客
+## docFlow
 
-**技术栈**: VitePress, Vue3, TypeScript
+文档相关的全栈项目。仓库分成 `frontend/` 和 `backend/`，根目录没有 README。
 
-一个使用 VitePress 构建的个人博客网站，用于分享技术文章、生活随笔和读书笔记。
+- 前端：Next.js、React、TypeScript、Tailwind CSS（`frontend/package.json`）
+- 后端：Python、FastAPI。`backend/README.md` 写了 Word 导出，以及用 Pandoc 解析 docx 里的公式
+- 源码：[github.com/yhl-tech/docFlow](https://github.com/yhl-tech/docFlow)
 
-[查看源码](https://github.com/yourusername/blog) | [访问网站](https://yourblog.com)
+## dataFactory
 
-## 任务管理应用
+数据处理项目，前端和后端分两个仓库。
 
-**技术栈**: Vue3, Pinia, TailwindCSS
+- 前端：[github.com/yhl-tech/dataFactory](https://github.com/yhl-tech/dataFactory)。React、TypeScript、Vite、Ant Design、ECharts、Tailwind CSS。仓库 README 仍是 Vite 模板，外加 pnpm 的安装和启动说明
+- 后端：[github.com/yhl-tech/dataFactory-server](https://github.com/yhl-tech/dataFactory-server)。Python、FastAPI。后端 README 把它描述为数据采集、处理、分析和展示服务
 
-一个简洁高效的任务管理应用，支持任务分类、优先级设置、截止日期提醒等功能。
+## xlcs
 
-[查看源码](https://github.com/yourusername/task-manager) | [在线演示](https://yourtaskapp.com)
+`package.json` 里的名字是 `rorschach-test`，描述是「知己心探测试系统」。仓库内技术文档把它写成基于罗夏墨迹测验的在线评测前端。
 
-## 天气预报小程序
+- 技术栈：Vite、JavaScript；开发时用 Express 做 API 代理
+- 源码：[github.com/yhl-tech/xlcs](https://github.com/yhl-tech/xlcs)
 
-**技术栈**: 微信小程序, JavaScript
+## 这个博客
 
-一个简单易用的天气预报小程序，提供实时天气、未来预报、空气质量等信息。
-
-[查看源码](https://github.com/yourusername/weather-miniapp)
-
-## 电子书阅读器
-
-**技术栈**: React, Redux, Electron
-
-一个跨平台的电子书阅读器应用，支持多种电子书格式，提供舒适的阅读体验。
-
-[查看源码](https://github.com/yourusername/ebook-reader) | [下载应用](https://yourreader.com)
-
-## 开源贡献
-
-除了个人项目外，我也积极参与开源社区：
-
-- 为 VitePress 贡献了文档改进和bug修复
-- 参与了 Vue 生态系统中多个库的开发
-- 翻译了多篇技术文章到中文
-
-如果你对我的任何项目感兴趣，或者想要合作开发，欢迎联系我！
+- 技术栈：VitePress、Vue、pnpm
+- 源码：[github.com/yhl-tech/blog](https://github.com/yhl-tech/blog)
+- 文章还没有发布。GitHub 仓库主页上登记的 Vercel 地址目前打不开，所以这里不放网站链接。重新部署的步骤写在仓库 README 里
