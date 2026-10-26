@@ -2,7 +2,7 @@
 
 VitePress site for 亮仔, a frontend engineer. The about page is a short bio. The projects page links only to public GitHub repositories under [yhl-tech](https://github.com/yhl-tech). The articles section is a real page with no posts yet.
 
-The site copy is Chinese. This README is English so the repository is readable in a job search.
+The site copy is Chinese. This README is English so the repository is readable in a job search. VitePress does not publish it: `.vitepress/config.mts` sets `srcExclude` to `README.md`.
 
 ## Stack
 

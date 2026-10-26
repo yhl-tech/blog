@@ -5,6 +5,7 @@ export default defineConfig({
   title: "亮仔",
   description: "Web 前端开发者的笔记与公开项目",
   base: "/",
+  srcExclude: ["README.md"],
   themeConfig: {
     logo: "/images/logo.png",
     nav: [
